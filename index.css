@@ -1,0 +1,56 @@
+/* general */
+
+* {
+    line-height: 1.1;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#all {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* aside */
+
+aside {
+    background-image: url(nora-long-SMuJfoXzfUo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    color: white;
+}
+
+#odin {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    padding: 3.125rem;
+
+    font-family: norse-bold;
+    font-size: 6.25rem;
+}
+
+#odin img {
+    width: 6.25rem;
+    height: auto;
+}
+
+aside span a:link, aside span a:visited, aside span a:hover, aside span a:active {
+    color: white;
+}
+
+@font-face {
+    font-family: "norse-bold";
+    src: url(Norse-Bold.otf);
+}
+
+/* main */
+
+
+
