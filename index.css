@@ -5,6 +5,7 @@
     --o-w: whitesmoke;
     --g: #5f9341;
     --d-b: rgba(0, 0, 0, 0.55);
+    --gy: grey;
 }
 
 /* general */
@@ -20,7 +21,10 @@ body {
 }
 
 #all {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     width: 100vw;
     height: 100vh;
 }
@@ -32,8 +36,10 @@ aside {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 30%;
+    /* width: 30%; */
     color: var(--w);
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
 }
 
 #odin {
@@ -64,7 +70,9 @@ aside span a:link, aside span a:visited, aside span a:hover, aside span a:active
 /* main */
 
 main {
-    width: 70%;
+    /* width: 70%; */
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 3;
 }
 
 #incentive, #login {
