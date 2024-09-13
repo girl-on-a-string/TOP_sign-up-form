@@ -6,6 +6,7 @@
     --g: #5f9341;
     --d-b: rgba(0, 0, 0, 0.55);
     --gy: grey;
+    --blk: black;
 }
 
 /* general */
@@ -41,14 +42,21 @@ aside {
     grid-column: 1 / span 1;
     grid-row: 1 / span 3;
 
+    text-align: center;
+
+    /* display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center; */
+
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: end;
 }
 
 #odin {
     background-color: var(--d-b);
-    width: 100%;
+    /* width: 100%; */
+    height: auto;
     display: flex;
     margin-top: 30%;
     justify-content: center;
@@ -57,11 +65,24 @@ aside {
 
     font-family: norse-bold;
     font-size: 6.25rem;
+
+    grid-row: 1 / span 1;
 }
 
 #odin img {
     width: 6.25rem;
     height: auto;
+}
+
+#credits {
+    text-align: center;
+    padding: .625rem;
+    display: flex;
+    justify-content: center;
+}
+
+#credits {
+    margin-top: auto;
 }
 
 aside span a:link, aside span a:visited, aside span a:hover, aside span a:active {
@@ -81,8 +102,11 @@ main {
     grid-row: 1 / span 3;
 
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-rows: repeat(3, 1fr);
+}
+
+#incentive, #login, #sign-up {
+    padding: 1.875rem 1.875rem 1.875rem 1.875rem;
 }
 
 #incentive, #login {
@@ -90,8 +114,28 @@ main {
     width: 100%;
 }
 
+#incentive, #sign-up  span {
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+#incentive {
+    display: flex;
+    flex-direction: column;
+}
+
+#incentive div {
+    margin-top: 50% inherit;
+}
+
 #login button {
     background-color: var(--g);
+    border: .0625rem solid transparent;
+    border-radius: 1.25rem;
+    padding: .625rem 2.5rem .625rem 2.5rem;
+    font-size: 1.25rem;
+    color: var(--w);
+    font-weight: bold;
 }
 
 #login a {
