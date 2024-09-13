@@ -132,15 +132,21 @@ main {
     background-color: var(--g);
     border: .0625rem solid transparent;
     border-radius: 1.25rem;
-    padding: .625rem 2.5rem .625rem 2.5rem;
+    padding: 1.25rem 2.8125rem 1.25rem 2.8125rem;
     font-size: 1.25rem;
     color: var(--w);
     font-weight: bold;
 }
 
+#login div {
+    font-size: 1.25rem;
+    padding: 1.25rem 0rem 1.25rem 0rem;
+}
+
 #login a {
     color: var(--g);
     font-weight: bold;
+    text-decoration: none;
 }
 
 
