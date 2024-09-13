@@ -3,8 +3,8 @@
 :root {
     --w: white;
     --o-w: whitesmoke;
-    --g: #5f9341;
-    --d-b: rgba(0, 0, 0, 0.55);
+    --g: #985438;
+    --d-b: rgba(0, 0, 0, 0.4);
     --gy: grey;
     --blk: black;
 }
@@ -33,7 +33,7 @@ body {
 /* aside */
 
 aside {
-    background-image: url(nora-long-SMuJfoXzfUo-unsplash.jpg);
+    background-image: url(pexels-damright-632075.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
