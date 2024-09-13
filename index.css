@@ -125,7 +125,11 @@ main {
 }
 
 #incentive div {
-    margin-top: 50% inherit;
+    margin-top: auto;
+}
+
+#incentive p:first-child {
+    margin: 0;
 }
 
 #login button {
