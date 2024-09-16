@@ -28,32 +28,46 @@
                 </div>
             </div>
             <div id="sign-up">
-                <span id="header">Let's do this!</span>
-                <form method="get" action="">
-                    <fieldset>
-                        <label for="first-name"><span style="color: red;">*</span>First Name</label>
-                        <input id="first-name" type="text" name="first-name" placeholder="Thor" required>
+                <div>
+                    <span id="header">Let's do this!</span>
+                    <form method="get" action="">
+                        <div>
+                            <fieldset>
+                                <label for="first-name"><span style="color: red;">*</span>First Name</label>
+                                <input id="first-name" type="text" name="first-name" placeholder="Thor" required>
+                            </fieldset>
+        
+                            <fieldset>
+                                <label for="last-name"><span style="color: red;">*</span>Last name</label>
+                                <input type="text" id="last-name" name="last-name" placeholder="Odinson" required>
+                            </fieldset>
+                        </div>
 
-                        <label for="last-name"><span style="color: red;">*</span>Last name</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Odinson" required>
-                    </fieldset>
+                        <div>
+                            <fieldset>
+                                <label for="email"><span style="color: red;">*</span>Email</label>
+                                <input type="email" id="email" name="email" placeholder="email@email.com" required>
+                            </fieldset>
+        
+                            <fieldset>
+                                <label for="phone-number">Phone number</label>
+                                <input type="number" id="phone-number" name="phone-number" placeholder="111-222-ODIN">
+                            </fieldset>
+                        </div>
 
-                    <fieldset>
-                        <label for="email"><span style="color: red;">*</span>Email</label>
-                        <input type="email" id="email" name="email" placeholder="email@email.com" required>
-    
-                        <label for="phone-number">Phone number</label>
-                        <input type="number" id="phone-number" name="phone-number" placeholder="111-222-ODIN">
-                    </fieldset>
-
-                    <fieldset>
-                        <label for="password"><span style="color: red;">*</span>Password</label>
-                        <input type="password" id="password" name="password" required>
-
-                        <label for="password-conf"><span style="color: red;">*</span>Confirm Password</label>
-                        <input type="password" id="password" name="password-conf" required>
-                    </fieldset>
-                </form>
+                        <div>
+                            <fieldset>
+                                <label for="password"><span style="color: red;">*</span>Password</label>
+                                <input type="password" id="password" name="password" required>
+                            </fieldset>
+        
+                            <fieldset>
+                                <label for="password-conf"><span style="color: red;">*</span>Confirm Password</label>
+                                <input type="password" id="password" name="password-conf" required>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div id="login">
                 <button type="submit">Create Account</button>
