@@ -60,13 +60,20 @@ aside {
     display: flex;
     margin-top: 30%;
     justify-content: center;
-    align-items: center;
     padding: 3.125rem;
 
     font-family: norse-bold;
     font-size: 6.25rem;
 
     grid-row: 1 / span 1;
+}
+
+#odinn content {
+    display: flex;
+}
+
+#odin content span {
+    align-self: center;
 }
 
 #odin img {
