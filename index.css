@@ -64,17 +64,14 @@ aside {
     padding: 3.125rem;
 
     font-family: norse-bold;
-    font-size: 6.25rem;
+    font-size: 6.875rem;
 
     grid-row: 1 / span 1;
 }
 
-#odinn content {
+#odin #content {
     display: flex;
-}
-
-#odin content span {
-    align-self: center;
+    align-items: center;
 }
 
 #odin img {
