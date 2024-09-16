@@ -121,7 +121,7 @@ main {
     width: 100%;
 }
 
-#incentive, #sign-up  span {
+#incentive, #sign-up #header {
     font-size: 1.875rem;
     font-weight: bold;
 }
@@ -137,6 +137,10 @@ main {
 
 #incentive p:first-child {
     margin: 0;
+}
+
+#sign-up fieldset {
+    border: none;
 }
 
 #login button {

@@ -28,18 +28,18 @@
                 </div>
             </div>
             <div id="sign-up">
-                <span>Let's do this!</span>
+                <span id="header">Let's do this!</span>
                 <form method="get" action="">
                     <fieldset>
-                        <label for="first-name">*First Name</label>
+                        <label for="first-name"><span style="color: red;">*</span>First Name</label>
                         <input id="first-name" type="text" name="first-name" placeholder="Thor" required>
 
-                        <label for="last-name">*Last name</label>
+                        <label for="last-name"><span style="color: red;">*</span>Last name</label>
                         <input type="text" id="last-name" name="last-name" placeholder="Odinson" required>
                     </fieldset>
 
                     <fieldset>
-                        <label for="email">*Email</label>
+                        <label for="email"><span style="color: red;">*</span>Email</label>
                         <input type="email" id="email" name="email" placeholder="email@email.com" required>
     
                         <label for="phone-number">Phone number</label>
@@ -47,10 +47,10 @@
                     </fieldset>
 
                     <fieldset>
-                        <label for="password">*Password</label>
+                        <label for="password"><span style="color: red;">*</span>Password</label>
                         <input type="password" id="password" name="password" required>
 
-                        <label for="password-conf">*Confirm Password</label>
+                        <label for="password-conf"><span style="color: red;">*</span>Confirm Password</label>
                         <input type="password" id="password" name="password-conf" required>
                     </fieldset>
                 </form>
